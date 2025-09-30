@@ -149,6 +149,55 @@
       .qr{width:140px;height:140px}
       .cover h1{font-size:30px}
     }
+    /* ====== Responsive for Solution section ====== */
+@media (max-width:880px){
+  .solution .inner {
+    grid-template-columns:1fr; /* stack left and right */
+    gap:18px;
+  }
+  .solution h2 {
+    font-size:24px;
+  }
+  .solution p {
+    font-size:14px;
+  }
+  .solution .icons {
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+  }
+  .solution .service strong {
+    font-size:14px;
+  }
+  .solution .service p {
+    font-size:12px;
+  }
+  .solution .photo {
+    min-height:220px;
+  }
+}
+
+@media (max-width:520px){
+  .solution h2 {
+    font-size:20px;
+  }
+  .solution p {
+    font-size:13px;
+  }
+  .solution .icons {
+    grid-template-columns:1fr; /* stack icons vertically */
+    gap:8px;
+  }
+  .solution .service strong {
+    font-size:13px;
+  }
+  .solution .service p {
+    font-size:11px;
+  }
+  .solution .photo {
+    min-height:180px;
+  }
+}
+
 
     /* ====== Print ====== */
     @media print{
